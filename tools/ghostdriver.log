@@ -1,0 +1,18 @@
+[INFO  - 2019-01-04T08:08:48.010Z] GhostDriver - Main - running on port 63528
+[INFO  - 2019-01-04T08:08:49.040Z] Session [f735fcc0-0ff7-11e9-94c8-3179bd5a7e52] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134 ","webSecurityEnabled":true}
+[INFO  - 2019-01-04T08:08:49.041Z] Session [f735fcc0-0ff7-11e9-94c8-3179bd5a7e52] - page.customHeaders:  - {}
+[INFO  - 2019-01-04T08:08:49.041Z] Session [f735fcc0-0ff7-11e9-94c8-3179bd5a7e52] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.settings.accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8","phantomjs.page.settings.userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134 "}
+[INFO  - 2019-01-04T08:08:49.041Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: f735fcc0-0ff7-11e9-94c8-3179bd5a7e52
+[ERROR - 2019-01-04T08:08:51.242Z] Session [f735fcc0-0ff7-11e9-94c8-3179bd5a7e52] - page.onError - msg: ReferenceError: Can't find variable: s
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-01-04T08:08:51.242Z] Session [f735fcc0-0ff7-11e9-94c8-3179bd5a7e52] - page.onError - stack:
+  (anonymous function) (https://www.imf.org/external/index.htm:1107)
+  j (https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js:2)
+  fireWith (https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js:2)
+  ready (https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js:2)
+  J (https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2019-01-04T08:13:48.307Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-01-04T08:13:48.307Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session 'f735fcc0-0ff7-11e9-94c8-3179bd5a7e52', because windowless
